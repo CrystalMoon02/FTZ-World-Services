@@ -1,0 +1,376 @@
+body {
+  background-image: url("Assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  font-family: Trebuchet MS;
+  margin:  0px ;
+  padding: 0px;
+}
+
+.topAlingnmet {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 8px;
+ 
+}
+.navData {
+ 
+  display: flex;
+  align-items: center;
+  height: 67px;
+  margin: 0px;
+padding-left:20px;
+  
+}
+
+ul{
+  border: 1px solid #3A4C62;
+   
+  }
+
+li:not(:last-child):not(.worldServiceLogo)::after {
+  content: "|";
+  color: #f9f9fa;
+}
+
+li a:hover {
+  background-color: #4a667f;
+  width:5px;
+}
+
+li a {
+  text-decoration: none;
+  color: #a6daf9;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-right: 11px;
+  padding-bottom: 6px;
+  letter-spacing: 1px;
+  padding-left: 11px;
+}
+li {
+  display: inline;
+}
+
+.TradeZoneBrightness {
+  filter: brightness(200%);
+}
+.navTop {
+  padding-top: 6px;
+  line-height: 24px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(16, 34, 58, 0.9);
+}
+
+.navAlignment{
+  margin-top: 22px;
+}
+.topLinks {
+  padding-bottom: 5px;
+  padding-right: 2px;
+  padding-left: 5px;
+  display: inline;
+  background-color: rgb(16, 34, 58, 0.4);
+  font-size: 3px;
+  font-family: Trebuchet MS;
+  padding-top: 4px;
+  font-weight: 600;
+}
+.topLinks a {
+  text-decoration: none;
+  padding-bottom: 14px;
+  margin-right: 4px;
+  color: #a6daf9;
+  font-size: 12px;
+  color:#FFFEFF;
+}
+
+.topLinks :not(:last-child)::after {
+  content: "|";
+  padding-right: 0px;
+  padding-left: 4px;
+  color: #a6daf9;
+}
+
+.bringingTechnology {
+  font-size: 41px;
+  color:#FFFEFF;
+  font-family: Trebuchet MS;
+  letter-spacing: 8px;
+  background-color: rgba(16, 34, 58, 0.3);
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  line-height :48px;
+}
+
+.bringingTechnology span{
+ display:block;
+}
+.logoSize {
+  padding-right: 24px;
+  padding-left: 12px;
+}
+
+
+
+.imgContent {
+  width: 309px;
+  box-sizing: border-box;
+  padding: 17px;
+  padding-bottom: 0px;
+}
+
+.contentContainer {
+  line-height: 22px;
+  display: flex;
+  color: #FFFEFF;
+  font-size: 14px;
+  /* font-weight:bold; */
+  font-family:Trebuchet MS;
+  letter-spacing: 0.9px;
+ border:1px solid;
+ border-image: 
+   linear-gradient(
+     to top, 
+     #565E69, 
+     rgba(0, 0, 0, 0)
+   ) 30
+  
+}
+.containerBorder{
+  padding-top: 6px;
+  line-height: 24px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(16, 34, 58, 0.8);
+}
+.moreAbout {
+  text-decoration: underline;
+  color: #ADDEFE;
+}
+.requestaQuote {
+  text-decoration: underline;
+  color: #ADDEFE;
+ 
+}
+.aboutOffer {
+  text-decoration: underline;
+  color: #ADDEFE;
+  padding-top: 16px;
+}
+.copyRight {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(41,65,109, 1);
+  padding: 8px;
+  color: #cfdef5;
+  font-size: 14px;
+  letter-spacing: 0.9px;
+  font-family: Trebuchet MS;
+}
+.contactUs {
+  color: #FFFEFF;
+  text-decoration: underline;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: Trebuchet MS;
+}
+.requestQuote {
+  color: #FFFEFF;
+  text-decoration: underline;
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: Trebuchet MS;
+}
+
+/* SERVICE PAGE CSS */
+
+.navBarData {
+  
+  display: flex;
+  align-items: center;
+  height: 67px;
+  font-family: Trebuchet MS;
+  letter-spacing: 1px;
+  border:1px solid white;
+  border-color:#616679;
+}
+
+.totalServiceContent {
+ 
+  display: flex;
+  color: #FFFEFF;
+  font-family: Trebuchet MS;
+  font-size: 14.4px;
+  padding-left: 9px;
+  width: 929px;
+
+  border:1px solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      #565E69, 
+      rgba(0, 0, 0, 0)
+    ) 30
+}
+
+.industriesImg{
+  padding-left:20px;
+  padding-left: 24px;
+  padding-top: 15px;
+}
+.ourServiceContent {
+  padding-left: 17px;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  line-height:22px;
+}
+.ourServices {
+  color: #cbe6ff;
+  font-size:23px;
+}
+.undelineData span {
+  text-decoration: underline;
+  color: #cbe6ff;
+}
+
+
+.serviceLinks {
+  padding-left:20px;
+  text-decoration: underline;
+  color:#ADDEFE;
+  font-size : 16px;
+  display:block;
+  line-height: 22px;
+  padding-top:2px;
+  padding-left:10px;
+}
+
+.border{
+  border-top :1px solid;
+  border-bottom:1px solid;
+  padding-bottom:14px;
+  padding-top:10px;
+  border-color:#616679;
+}
+.borderAlignment{
+  padding-left:22px;
+}
+.servicePoints span{
+display:flex;
+padding-left:10px;
+
+}
+.servicePoints ::before{
+content :"\2022";
+padding-right :10px;
+}
+
+.nav a:active,
+.nav a.activeOurServicePage {
+  background-color: #4a667f;
+}
+
+.nav a:active,
+.nav a.activeHomePage{
+  background-color: #4a667f;
+}
+
+button {
+  color:#C7E3FB;
+  background-color:#29497C ;
+  border:1px solid;
+  border-radius: 3px;
+  border-color:#136885;
+  padding : 4px;
+  font-family: Trebuchet MS;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding-right:7px;
+
+}
+
+button {
+  background-image: linear-gradient( #125E75, #203D67); 
+  
+}
+.requestButton {
+border-top :1px solid;
+border-bottom:1px solid;
+border-color:#616777;
+background-color: rgba(16, 34, 58,0.5);
+padding-left:8px;
+margin-bottom: 24px;
+}
+.arrow {
+  border: solid white;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+  
+}
+
+.right {
+  transform: rotate(-45deg);
+}
+.helpData{
+  font-size: 15px;
+  padding-left:24px;
+}
+.button{
+  padding-bottom: 17px;
+  padding-left: 24px;
+}
+.navTopService{
+      padding-top: 1px;
+    line-height: 24px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(16, 34, 58, 0.9);
+
+}
+.servicelogoSize{
+padding-right: 18px;
+margin-top: 18px;
+}
+.servicePage {
+
+padding-bottom:24px;
+
+}
+.serviceLogoSize{
+  padding-right: 24px;
+}
+
+.bordertToTotalServiceContent{
+ 
+  padding-top: 6px;
+  line-height: 24px;
+  padding-bottom: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: rgb(16, 34, 58, 0.9);
+}
+
+.navServiceAlignment{
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+.topServiceAlingnmet{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2px;
+}
